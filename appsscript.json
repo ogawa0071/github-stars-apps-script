@@ -1,5 +1,9 @@
 {
   "timeZone": "Asia/Tokyo",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/spreadsheets.currentonly"
+  ],
   "dependencies": {},
   "exceptionLogging": "STACKDRIVER"
 }
