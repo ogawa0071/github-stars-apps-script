@@ -1,5 +1,12 @@
 {
+  "scripts": {
+    "pull": "clasp pull",
+    "push": "clasp push",
+    "open": "clasp open"
+  },
   "devDependencies": {
-    "@types/google-apps-script": "^0.0.39"
+    "@google/clasp": "^2.1.0",
+    "@types/google-apps-script": "^0.0.39",
+    "typescript": "^3.3.4000"
   }
 }
